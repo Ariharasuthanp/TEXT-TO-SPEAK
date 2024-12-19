@@ -5,9 +5,9 @@ function speak() {
 const textToSpeak = document.getElementById("textToSpeak").value;
   
 speech.text = textToSpeak;
-speech.rate = 1; // Adjust speech rate if needed (0.1 - 10)
-speech.pitch = 1; // Adjust pitch if needed (0 - 2)
-speech.volume = 1; // Adjust volume if needed (0 - 1)
+speech.rate = 1; 
+speech.pitch = 1; 
+speech.volume = 1;
 
 window.speechSynthesis.speak(speech);
 }
